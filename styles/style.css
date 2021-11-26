@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "my font";
+    src: url("../assets/Bluu\ Next\ Cyrillic.otf");
+}
+
+
+  
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+  }
+
+  .image2 {
+    animation: 2s linear 2s normal none infinite running rot;
+    -webkit-animation: 2s linear 2s normal none infinite running rot;
+    width: -12px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+h1 {
+    inline-size: 630px; 
+    transform: skewx(
+        13deg) translatex(142px);
+            transform-origin: bottom left;
+  overflow: hidden;
+    position: absolute;
+    top	: 00px;
+    color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 961%;
+    text-align: left;
+    margin: 0px;
+    
+}
+
+h1 {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 700%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+h2 {
+    color:rgb(187, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1261%;
+    text-align: right;
+    filter: blur(5px);
+    
+}
+
+h4 {
+    color:rgb(187, 255, 0);
+    top	: 180px;
+    left: 1000px;
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 261%;
+}
+
+p {color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 161%;
+    text-align: left;
+    margin: 0px;
+
+}
+
+
+
+body{
+    background-image: url("/Users/aleksandramacokina/OneDrive/css poster/assets/Без имени-1 копия.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    background-color: rgb(0, 0, 0);
+}
+
+.image{
+  
+    position: relative;
+}
+.image img {
+    width: 1500px;
+}
+
+.image2{
+    
+    text-align: left;
+    transform: rotate(353deg);
+}
+.image2 img {
+    width: 1303px;
+}
+
+.image3 {
+    transform: rotate(218deg);  
+    width: 270px;
+    box-shadow: 0px 0px 20px red;
+}
+
+
+.image4 {
+
+    float: right;
+    transform: rotate(303deg);  
+    width: 270px;
+    
+}
+
+
+
+.gallery {
+    display: flex;
+    margin: 30px;
+}
+
+h3 {
+    color: rgb(255, 0, 0);
+    font-family: "my font";
+    font-size: 961%;
+    text-align: center;
+    margin: 0px;
+}
+
+h3 {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .image4 {
+    text-shadow: rgb(255, 238, 0) 0px 0px 10px;
+    transition: all 0.2s;
+}
